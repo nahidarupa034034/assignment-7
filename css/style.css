@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    background-color: rgb(199, 221, 237);
+    margin-top: 7px;
+    margin: auto;
+}
+
+    img{
+        width: 60px;
+        height: 70px;
+    }
+.main{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+  
+}
+/*.parent img{
+    display: block;
+}*/
+
+.parent{
+    width: 15%;
+}
+.child{
+    width: 85%;
+}
+.child ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+}
+ul li:hover a{
+    background: rgb(140, 140, 234);
+}
+ul li a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+   padding: 18px 10px;
+   display: inline-block;
+   transition: 0.7s;
+}
